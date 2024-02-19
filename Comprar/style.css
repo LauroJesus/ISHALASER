@@ -1,0 +1,81 @@
+* {
+    relleno :  0 ;
+    margen :  0 ;
+    tamaño de caja : cuadro de borde;
+}
+
+. contenedor {
+    ancho :  90 % ;
+    margen :  100 px automático;
+}
+
+. contenedor-preguntas frecuentes {
+    sombra de caja :  0  0  15 px  -1 px  rgba ( 0 , 0 , 0 , .1 );
+    relleno :  30 px ;
+}
+
+. contenedor-faq . título-preguntas frecuentes {
+    alineación de texto : centro;
+    tamaño de fuente :  2 rem ;
+    margen inferior :  30 px ;
+}
+
+. contenedor-faq . ítem-preguntas frecuentes {
+    sombra de caja :  0  0  15 px  -1 px  rgba ( 0 , 0 , 0 , .2 );
+    margen inferior :  20 px ;
+    borde-radio :  10 px ;
+}
+
+. contenedor-faq . ítem-faq . pregunta {
+    posición : relativa;
+    pantalla : flexible;
+    justificar-contenido : espacio-entre;
+    alinear elementos : centro;
+    fondo :  rgba ( 43 ,  51 ,  122 ,  .2 );
+    relleno :  20 px  20 px  20 px  80 px ;
+    transición :  0,4 s ;
+}
+
+. contenedor-faq . ítem-faq . pregunta _ más {
+    pantalla : flexible;
+    justificar-contenido : centro;
+    alinear elementos : centro;
+    sombra de caja :  0  0  15 px  -1 px  rgba ( 0 , 0 , 0 , .2 );
+    ancho :  40 píxeles ;
+    altura :  40 píxeles ;
+    tamaño de fuente :  1 rem ;
+    cursor : puntero;
+    transición :  0,4 s ;
+}
+
+. contenedor-faq . ítem-faq . pregunta _ más : flotar {
+    sombra de caja :  0  0  15 px  -1 px  rgba ( 0 , 0 , 0 , .4 );
+}
+
+. contenedor-faq . ítem-faq . intervalo de preguntas  {
+    posición : absoluta;
+    izquierda :  10 px ;
+    tamaño de fuente :  3 rem ;
+    arriba :  10 px ;
+    opacidad :  .1 ;
+}
+
+. contenedor-faq . ítem-faq . respuesta {
+    posición : relativa;
+    relleno :  0  20 px  0  80 px ;
+    desbordamiento : oculto;
+    altura :  0 ;
+    transición :  0,4 s ;
+}
+
+. contenedor-faq . ítem-faq . responder  p {
+    tamaño de fuente :  1,3 rem ;
+}
+
+. contenedor-faq . ítem-faq . rango de respuesta  {
+    posición : absoluta;
+    izquierda :  10 px ;
+    tamaño de fuente :  3 rem ;
+    arriba :  -10 píxeles ;
+    opacidad :  .2 ;
+}
